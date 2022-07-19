@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("/static/asset/img/background.jpg ");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+
+.loginbox p.input{
+    padding: 0;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.loginbox button{
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: white;
+    font-size: 18px;
+}
+.loginbox a.login{
+    font: bold;
+    text-decoration: none;
+    background-color: #fb2525;
+    color: white;
+    padding: 10px 111px 10px 111px;
+}
+.loginbox a.register{
+    font: bold;
+    text-decoration: none;
+    background-color: #fb2525;
+    color: white;
+    padding: 10px 100px 10px 100px;
+}
+.loginbox p.text{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
