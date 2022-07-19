@@ -13,9 +13,11 @@
         </div>
     
         <button type="submit">Login</button>
-        <p class="text">or</p>
-        <a class = "register" href="{% url 'register' %}">Register</a>
     </form>
+    <p class="text">or</p>
+        <p class = "register"><a href="{% url 'register' %}">Register</a></p>
+        {% load socialaccount %}
+        <p class = "goog_auth"><a href="{% provider_login_url 'google'%}?next=/index">Sign Up with Google</a></p>
     </div>
     
 {% endblock %}

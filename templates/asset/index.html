@@ -1,10 +1,12 @@
 
 {% extends 'base.html' %}
 {% block content %}
-    <div>
+    <div class="index">
         <p>Hello</p>
             <p>
-                Email:  {{ content.email }} <br>
+                {% if user.is_authenticated %}
+                Email:  {{ user.email }} <br>
+                {% endif %}
             </p>    
     </div>
     <a href="{% url 'logout' %}">Logout</a>

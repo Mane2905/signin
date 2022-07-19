@@ -8,6 +8,7 @@ body{
 }
 
 .loginbox{
+    margin: 0;
     width: 320px;
     height: 420px;
     background: black;
@@ -40,8 +41,7 @@ body{
 
 .loginbox button{
     width: 100%;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 15px;
     border: none;
     outline: none;
     height: 40px;
@@ -49,22 +49,38 @@ body{
     color: white;
     font-size: 18px;
 }
-.loginbox a.login{
+.loginbox p.login{
     font: bold;
     text-decoration: none;
     background-color: #fb2525;
     color: white;
-    padding: 10px 111px 10px 111px;
+    padding: 11px 111px 11px 111px;
 }
-.loginbox a.register{
+.loginbox p.register{
     font: bold;
     text-decoration: none;
     background-color: #fb2525;
     color: white;
-    padding: 10px 100px 10px 100px;
+    padding: 11px 100px 11px 100px;
 }
+
 .loginbox p.text{
     margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+p.goog_auth{
+    font: bold;
+    text-decoration: none;
+    background-color: #fb2525;
+    color: white;
+    padding: 11px 50px 11px 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+div.index{
+    color: white;
 }

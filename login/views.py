@@ -37,8 +37,4 @@ def logout(request):
     return redirect('login')
 
 def index(request):
-    content = Account.objects.filter(email = request.user.email)[0]
-    context = {
-        "content":content,
-    }
-    return render(request,"asset/index.html",context)
+    return render(request,"asset/index.html")
